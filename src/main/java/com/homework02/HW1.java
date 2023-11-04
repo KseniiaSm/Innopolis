@@ -1,4 +1,4 @@
-package com.homework02.HW;
+package com.homework02;
 import java.util.Scanner;
 public class HW1 {
      public static void main(String[] args) {

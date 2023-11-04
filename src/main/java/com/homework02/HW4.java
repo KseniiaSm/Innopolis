@@ -1,4 +1,4 @@
-package com.homework02.HW;
+package com.homework02;
 
 public class HW4 {
     public static void main(String[] args) {
