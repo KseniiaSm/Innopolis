@@ -5,32 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d48f717e-b87d-4f31-b8f2-02b7ffc6d306" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Innopolis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework01/HW2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework02/HW/HW1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework02/HW/HW2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework02/HW/HW3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework02/HW/HW4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework03/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework03/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework04/Arrows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework04/Letters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework04/TwoWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lessons/lesson10/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lessons/lesson10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lessons/lesson10/Moveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lessons/lesson10/SString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lessons/lesson10/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lessons/lesson10_HW_Test/Two.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lessons/lesson10_HW_Test/a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lessons/lesson8_Massive_Skanirovanie/Lesson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lessons/lesson8_Massive_Skanirovanie/Massive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lessons/lesson8_Massive_Skanirovanie/Scannirovanie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework02/HW/HW1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework02/HW1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework02/HW/HW2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework02/HW2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework02/HW/HW3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework02/HW3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework02/HW/HW4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework02/HW4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +25,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="homework05Addition" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "KseniiaSm"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KseniiaSm&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -74,18 +58,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Ксения/IdeaProjects/Innopolis/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "HomeWork05",
+    "onboarding.tips.debug.path": "C:/Users/Ксения/IdeaProjects/Innopolis/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "copyright"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.lesson10" />
@@ -183,7 +167,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
