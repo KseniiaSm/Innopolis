@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48f717e-b87d-4f31-b8f2-02b7ffc6d306" name="Changes" comment="">
+    <list default="true" id="d48f717e-b87d-4f31-b8f2-02b7ffc6d306" name="Changes" comment="rename">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework05/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework02/HW/HW1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework02/HW1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework02/HW/HW2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework02/HW2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework02/HW/HW3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework02/HW3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework02/HW/HW4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework02/HW4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework05/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework05/TV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework05Addition" />
+        <entry key="$PROJECT_DIR$" value="Homework03" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,30 +56,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "HomeWork05",
-    "onboarding.tips.debug.path": "C:/Users/Ксения/IdeaProjects/Innopolis/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;HomeWork05&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Ксения/IdeaProjects/Innopolis/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.lesson10" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoWords">
-    <configuration name="Arrows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lesson10.homework04.Arrows" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.homework05.App" />
       <module name="Innopolis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lessons.lesson10_HW_Test.*" />
+          <option name="PATTERN" value="com.homework05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.TwoWords" />
-        <item itemvalue="Application.Arrows" />
-        <item itemvalue="Application.Letters" />
-        <item itemvalue="Application.T" />
         <item itemvalue="Application.Two" />
+        <item itemvalue="Application.T" />
+        <item itemvalue="Application.Letters" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +158,23 @@
       <option name="presentableId" value="Default" />
       <updated>1697781683672</updated>
     </task>
+    <task id="LOCAL-00001" summary="HomeWork05">
+      <option name="closed" value="true" />
+      <created>1699081367089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699081367089</updated>
+    </task>
+    <task id="LOCAL-00002" summary="HomeWork05">
+      <option name="closed" value="true" />
+      <created>1699081433814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699081433814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,22 +182,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HomeWork05" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork05" />
   </component>
 </project>
