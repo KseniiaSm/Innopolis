@@ -40,14 +40,12 @@ public class App {
             }
         }
 
-        //Product [] packetWithProducts = new Product[3];
-
         for (int k = 0; k < allPeople.length; k++) {
             for (int m = 0; m < allProducts.length; m++) {
                 if (allProducts[m].getPrice() <= allPeople[k].getSummaMoney()) {
                     System.out.println(allPeople[k].getName() + " купил " + allProducts[m].getNameOfProduct());
                     allPeople[k].setSummaMoney(allPeople[k].getSummaMoney() - allProducts[m].getPrice());
-                   // packetWithProducts = allProducts[m];
+
                 } else {
                     System.out.println(allPeople[k].getName() + " не может позволить себе " + allProducts[m].getNameOfProduct());
                 }
