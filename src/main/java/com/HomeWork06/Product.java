@@ -8,16 +8,19 @@ public class Product {
 
     public Product() {
     }
-    Product [] packetWithProducts;
 
+    @Override
+    public String toString() {
+        return nameOfProduct;
+    }
 
     public String getNameOfProduct() {
-       return nameOfProduct;
+        return nameOfProduct;
     }
 
     public void setNameOfProduct(String nameOfProduct) {
-        if (nameOfProduct != null){
-        this.nameOfProduct = nameOfProduct;
+        if (nameOfProduct != null) {
+            this.nameOfProduct = nameOfProduct;
         } else {
             System.out.println("Имя продукта не задано");
         }
@@ -28,15 +31,11 @@ public class Product {
     }
 
     public void setPrice(int price) {
-        if (price >= 0){
-        this.price = price;
+        if (price >= 0) {
+            this.price = price;
         } else {
             System.out.println("Цена не может быть отрицательным");
         }
     }
-
-    @Override
-    public String toString() {
-        return Arrays.toString(packetWithProducts);
-    }
 }
+
