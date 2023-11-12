@@ -44,11 +44,11 @@ public class App {
                     System.out.println(allPeople[k].getName() + " купил(а) " + allProducts[m].getNameOfProduct());
                     allPeople[k].setMoneySum(allPeople[k].getMoneySum() - allProducts[m].getPrice());
                     allPeople[k].packetWithProducts[m] = allProducts[m];
-                    System.out.println(allPeople[k].getName() + " купил(а) " + Arrays.toString(allPeople[k].packetWithProducts));
                 } else {
                     System.out.println(allPeople[k].getName() + " не может позволить себе " + allProducts[m].getNameOfProduct());
                 }
             }
+            System.out.println(allPeople[k].getName() + " купил(а) " + Arrays.toString(allPeople[k].packetWithProducts));
             for (int i = 0; i < allPeople[k].packetWithProducts.length; i++) {
                 if (allPeople[k].packetWithProducts[i] != null) {
                     isEmpty = false;
@@ -61,6 +61,8 @@ public class App {
                 System.out.println(allPeople[k].getName() + " ничего не может позволить себе");
             }
         }
+
+
     }
 }
 

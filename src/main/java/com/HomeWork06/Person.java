@@ -13,15 +13,6 @@ public class Person {
     }
     Person () {
     }
-//    Person(String name, int moneySum, Product [] packetWithProducts) {
-//        this.name = name;
-//        this.moneySum = moneySum;
-//        this.packetWithProducts = packetWithProducts;
-//    }
-
-    Person[] allPeople;
-
-
     public String getName() {
         return name;
     }

@@ -1,7 +1,5 @@
 package com.HomeWork06;
 
-import java.util.Arrays;
-
 public class Product {
     private String nameOfProduct;
     private int price;
