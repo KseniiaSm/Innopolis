@@ -5,12 +5,6 @@ public class Product {
     private int price;
 
     public Product() {
-
-    }
-
-    @Override
-    public String toString() {
-        return nameOfProduct;
     }
 
     public String getNameOfProduct() {
@@ -24,8 +18,6 @@ public class Product {
             this.nameOfProduct = nameOfProduct;
         }
     }
-
-
     public int getPrice() {
         return price;
     }
@@ -36,6 +28,11 @@ public class Product {
         } else {
             System.out.println("Цена не может быть отрицательной или равной 0");
         }
+    }
+    @Override
+    public String toString() {
+        return "Product " +
+                nameOfProduct + " " + price;
     }
 }
 

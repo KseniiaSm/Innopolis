@@ -5,14 +5,9 @@ import java.util.Arrays;
 public class Person {
     private String name;
     private int moneySum;
-    Product[] packetWithProducts = new Product[5];
-
-    @Override
-    public String toString() {
-        return name + " - " + Arrays.toString(packetWithProducts);
-    }
-
-    Person() {
+    int maxAmountOfProducts = 5;
+    Product[] packetWithProducts = new Product[maxAmountOfProducts];
+    public Person() {
     }
 
     public String getName() {
@@ -38,6 +33,10 @@ public class Person {
             System.out.println("Деньги не могут быть отрицательными");
         }
     }
-
-
+    @Override
+    public String toString() {
+        return "Person " +
+                name + " " + moneySum + "\n" +
+                "Пакет с продуктами: " + Arrays.toString(packetWithProducts);
+    }
 }

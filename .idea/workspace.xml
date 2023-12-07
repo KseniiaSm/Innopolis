@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d48f717e-b87d-4f31-b8f2-02b7ffc6d306" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/HomeWork07/DiscountProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/HomeWork07/TEST/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HomeWork07/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HomeWork07/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HomeWork07/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HomeWork07/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,6 +183,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Innopolis$Test.ic" NAME="Test Coverage Results" MODIFIED="1701692220765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
