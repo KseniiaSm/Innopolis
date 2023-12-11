@@ -1,7 +1,6 @@
 package com.Homework08;
 
 import java.util.Arrays;
-
 public class Person {
     private String name;
     private int moneySum;
