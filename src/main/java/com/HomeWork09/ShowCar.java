@@ -22,7 +22,7 @@ public class ShowCar extends Car{
 
     @Override
     public String toString() {
-        return  "\n" + "ShowCar: " + "\n" +
+        return  "ShowCar: " + "\n" +
                 super.toString() + "\n" +
                 "stars: " + stars;
     }

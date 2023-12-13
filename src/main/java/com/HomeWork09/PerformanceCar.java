@@ -23,7 +23,7 @@ public class PerformanceCar extends Car {
 
     @Override
     public String toString() {
-        return  "\n" + "PerformanceCar: " + "\n"
+        return  "PerformanceCar: " + "\n"
                 + super.toString();
     }
 }
