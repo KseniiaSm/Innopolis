@@ -1,7 +1,5 @@
 package com.HomeWork09;
 
-import java.util.Arrays;
-
 //Гоночный
 public class PerformanceCar extends Car {
     String [] addOnes;

@@ -65,6 +65,12 @@ public class App {
         racesArray[1] = new Race();
         racesArray[2] = new Race();
 
+        Garage [] garagesArray = new Garage[3];
+        garagesArray[0] = new Garage();
+        garagesArray[1] = new Garage();
+        garagesArray[2] = new Garage();
+
+        printWriter.println("Участники гонок");
 
         for (int i = 0; i < racesArray.length; i++) {
             String lineRace = scanner.next();
@@ -73,27 +79,41 @@ public class App {
                 racesArray[0].setDistance(scanner.nextInt());
                 racesArray[0].setRoute(scanner.next());
                 racesArray[0].setPrizeSum(scanner.nextInt());
-                racesArray[0].setCarsCollection(Arrays.copyOf(allCarsArray, scanner.nextInt()));
+                int numberOfCarsInRace = scanner.nextInt();
+                racesArray[0].setCarsCollection(Arrays.copyOf(allCarsArray, numberOfCarsInRace));
                 printWriter.println("В гонке CasualRace участвовали: ");
                 printWriter.println(Arrays.toString(racesArray[0].getCarsCollection()));
+                printWriter.println("Во время CasualRace в гараже остались: ");
+                garagesArray[0].setParkedCars(Arrays.copyOfRange(allCarsArray, numberOfCarsInRace, allCarsArray.length));
+                printWriter.println(Arrays.toString(garagesArray[0].getParkedCars()));
             } else if (lineRace.equals("DragRace")) {
                 racesArray[1].setName(lineRace);
                 racesArray[1].setDistance(scanner.nextInt());
                 racesArray[1].setRoute(scanner.next());
                 racesArray[1].setPrizeSum(scanner.nextInt());
-                racesArray[1].setCarsCollection(Arrays.copyOf(allCarsArray, scanner.nextInt()));
+                int numberOfCarsInRace = scanner.nextInt();
+                racesArray[1].setCarsCollection(Arrays.copyOf(allCarsArray, numberOfCarsInRace));
                 printWriter.println("В гонке DragRace участвовали: ");
                 printWriter.println(Arrays.toString(racesArray[1].getCarsCollection()));
+                printWriter.println("Во время DragRace в гараже остались: ");
+                garagesArray[1].setParkedCars(Arrays.copyOfRange(allCarsArray, numberOfCarsInRace, allCarsArray.length));
+                printWriter.println(Arrays.toString(garagesArray[1].getParkedCars()));
             } else if (lineRace.equals("DriftRace")) {
                 racesArray[2].setName(lineRace);
                 racesArray[2].setDistance(scanner.nextInt());
                 racesArray[2].setRoute(scanner.next());
                 racesArray[2].setPrizeSum(scanner.nextInt());
-                racesArray[2].setCarsCollection(Arrays.copyOf(allCarsArray, scanner.nextInt()));
+                int numberOfCarsInRace = scanner.nextInt();
+                racesArray[2].setCarsCollection(Arrays.copyOf(allCarsArray, numberOfCarsInRace));
                 printWriter.println("В гонке DriftRace участвовали: ");
                 printWriter.println(Arrays.toString(racesArray[2].getCarsCollection()));
+                printWriter.println("Во время DriftRace в гараже остались: ");
+                garagesArray[2].setParkedCars(Arrays.copyOfRange(allCarsArray, numberOfCarsInRace, allCarsArray.length));
+                printWriter.println(Arrays.toString(garagesArray[2].getParkedCars()));
             }
         }
+
+        printWriter.println("Победители в гонках");
 
         for (Race race : racesArray) {
             if (race.getName().equals("CasualRace")) {
