@@ -1,0 +1,220 @@
+Список всех имеющихся машин: 
+[ShowCar: 
+Car 
+company: Bentley
+model: A0100
+yearProduction: 2020
+power: 290
+acceleration: 100
+suspension: 100
+longevity: 10
+stars: 7, ShowCar: 
+Car 
+company: Chevrolet
+model: B2000
+yearProduction: 2022
+power: 400
+acceleration: 200
+suspension: 90
+longevity: 5
+stars: 8, ShowCar: 
+Car 
+company: Dodge
+model: Z3002
+yearProduction: 2019
+power: 600
+acceleration: 250
+suspension: 110
+longevity: 8
+stars: 10, PerformanceCar: 
+Car 
+company: Lexus
+model: L1000
+yearProduction: 2018
+power: 705
+acceleration: 200
+suspension: 60
+longevity: 15, PerformanceCar: 
+Car 
+company: Infiniti
+model: P3022
+yearProduction: 2020
+power: 450
+acceleration: 100
+suspension: 90
+longevity: 3]
+Участники гонок
+В гонке CasualRace участвовали: 
+[ShowCar: 
+Car 
+company: Bentley
+model: A0100
+yearProduction: 2020
+power: 290
+acceleration: 100
+suspension: 100
+longevity: 10
+stars: 7, ShowCar: 
+Car 
+company: Chevrolet
+model: B2000
+yearProduction: 2022
+power: 400
+acceleration: 200
+suspension: 90
+longevity: 5
+stars: 8, ShowCar: 
+Car 
+company: Dodge
+model: Z3002
+yearProduction: 2019
+power: 600
+acceleration: 250
+suspension: 110
+longevity: 8
+stars: 10]
+Во время CasualRace в гараже остались: 
+[PerformanceCar: 
+Car 
+company: Lexus
+model: L1000
+yearProduction: 2018
+power: 705
+acceleration: 200
+suspension: 60
+longevity: 15, PerformanceCar: 
+Car 
+company: Infiniti
+model: P3022
+yearProduction: 2020
+power: 450
+acceleration: 100
+suspension: 90
+longevity: 3]
+В гонке DragRace участвовали: 
+[ShowCar: 
+Car 
+company: Bentley
+model: A0100
+yearProduction: 2020
+power: 290
+acceleration: 100
+suspension: 100
+longevity: 10
+stars: 7, ShowCar: 
+Car 
+company: Chevrolet
+model: B2000
+yearProduction: 2022
+power: 400
+acceleration: 200
+suspension: 90
+longevity: 5
+stars: 8, ShowCar: 
+Car 
+company: Dodge
+model: Z3002
+yearProduction: 2019
+power: 600
+acceleration: 250
+suspension: 110
+longevity: 8
+stars: 10, PerformanceCar: 
+Car 
+company: Lexus
+model: L1000
+yearProduction: 2018
+power: 705
+acceleration: 200
+suspension: 60
+longevity: 15, PerformanceCar: 
+Car 
+company: Infiniti
+model: P3022
+yearProduction: 2020
+power: 450
+acceleration: 100
+suspension: 90
+longevity: 3]
+Во время DragRace в гараже остались: 
+[]
+В гонке DriftRace участвовали: 
+[ShowCar: 
+Car 
+company: Bentley
+model: A0100
+yearProduction: 2020
+power: 290
+acceleration: 100
+suspension: 100
+longevity: 10
+stars: 7, ShowCar: 
+Car 
+company: Chevrolet
+model: B2000
+yearProduction: 2022
+power: 400
+acceleration: 200
+suspension: 90
+longevity: 5
+stars: 8]
+Во время DriftRace в гараже остались: 
+[ShowCar: 
+Car 
+company: Dodge
+model: Z3002
+yearProduction: 2019
+power: 600
+acceleration: 250
+suspension: 110
+longevity: 8
+stars: 10, PerformanceCar: 
+Car 
+company: Lexus
+model: L1000
+yearProduction: 2018
+power: 705
+acceleration: 200
+suspension: 60
+longevity: 15, PerformanceCar: 
+Car 
+company: Infiniti
+model: P3022
+yearProduction: 2020
+power: 450
+acceleration: 100
+suspension: 90
+longevity: 3]
+Победители в гонках
+В гонке CasualRace победителем стал: 
+ShowCar: 
+Car 
+company: Dodge
+model: Z3002
+yearProduction: 2019
+power: 600
+acceleration: 250
+suspension: 110
+longevity: 8
+stars: 10
+В гонке DragRace победителем стал: 
+PerformanceCar: 
+Car 
+company: Lexus
+model: L1000
+yearProduction: 2018
+power: 705
+acceleration: 200
+suspension: 60
+longevity: 15
+В гонке DriftRace победителем стал: 
+ShowCar: 
+Car 
+company: Chevrolet
+model: B2000
+yearProduction: 2022
+power: 400
+acceleration: 200
+suspension: 90
+longevity: 5
+stars: 8
