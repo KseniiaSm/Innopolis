@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class App {
     public static void main(String[] args) {
-        int[] ints = {2345, 3452, 32, 444, 224, 7754, 8555, 935, 10, 112};
+        int[] numbers = {2345, 3452, 32, 444, 224, 7754, 8555, 935, 10, 112};
         isEven isEven = new isEven();
         isSumNumbersEven isSumNumbersEven = new isSumNumbersEven();
-
-        System.out.println(Arrays.toString(Sequence.filter(ints, isEven)));
-        System.out.println(Arrays.toString(Sequence.filter(ints, isSumNumbersEven)));
+        System.out.println("Исходный массив цифр:" + Arrays.toString(numbers));
+        System.out.println("Массив четных цифр: "+ Arrays.toString(Sequence.filter(numbers, isEven)));
+        System.out.println("Массив цифр, сумма которых является четным числом: "+ Arrays.toString(Sequence.filter(numbers, isSumNumbersEven)));
     }
 
     static class isEven implements ByCondition {
